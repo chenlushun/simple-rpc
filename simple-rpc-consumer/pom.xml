@@ -7,6 +7,13 @@
     <groupId>simple.rpc</groupId>
     <artifactId>simple-rpc-consumer</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <dependencies>
+        <dependency>
+            <groupId>simple.rpc</groupId>
+            <artifactId>simple-rpc-provider</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
     <packaging>jar</packaging>
 
     <properties>
